@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+h1{
+    font-size: 50px;
+    
+}
+h2{
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+.bd-bg{
+    background-image: url(images/bangla-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.container{
+    width: 80%;
+    height: 500px;
+    margin: auto;
+    /* border: 2px solid red; */
+    margin-bottom: 30px;
+}
+.text{
+    text-align: center;
+    color: white;
+}
+.bd-center{
+    font-size: 100px;
+}
+
+.area-p{
+    font-size: 20px;
+}
+
+.text-center{
+    text-align: center;
+    margin-bottom: 40px;
+    padding-bottom: 40px;
+}
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.div-area{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pad{
+    padding-top: 20px;
+}
+.half-width{
+    width: 50%;
+    margin-left: 5%;
+    padding-left: 5%;
+}
+
+.half-width img{
+    width: 55%;
+}
+
+footer p{
+    text-align: center;
+}
